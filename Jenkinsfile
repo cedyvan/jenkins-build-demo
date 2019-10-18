@@ -6,7 +6,6 @@ node {
 	}
 	
 	stage('Build image') {
-		
 	    app = docker.build("jenkins:latest")
 	}
 }
